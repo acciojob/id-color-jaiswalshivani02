@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+/* Global Styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+/* Box Styles */
+p {
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#yellow {
+  background-color: yellow;
+  border: 1px solid green;
+}
+
+#red {
+  background-color: red;
+  border: 1px solid black;
+}
+
+#green {
+  background-color: green;
+  border: 1px solid yellow;
+}
